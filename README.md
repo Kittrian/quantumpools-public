@@ -13,6 +13,8 @@
 ### Links
 - App: [quantumpools.io](https://quantumpools.io)
 - Metrics: [quantumpools.io/metrics.html](https://quantumpools.io/metrics.html)
+- X: [@QuantumPoolsIO](https://x.com/QuantumPoolsIO)
+- Contact: admin@quantumpools.io
 
 > Source for the production app is maintained privately. This public repo is the project presence / backlink landing page.
 
