@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "QuantumPools",
+  "url": "https://app.quantumpools.io",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "description": "Multi-chain liquidity-pool management and analytics: concentrated-liquidity bookkeeping, fee tracking, impermanent loss, and deposit-versus-hold performance analysis. Features vary by venue and network.",
+  "image": "https://raw.githubusercontent.com/Kittrian/quantumpools-public/main/assets/logo-400.png",
+  "sameAs": [
+    "https://quantumpools.io",
+    "https://x.com/QuantumPoolsIO",
+    "https://github.com/Kittrian/quantumpools-public"
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "QuantumPools",
+    "url": "https://quantumpools.io",
+    "email": "admin@quantumpools.io"
+  }
+}
