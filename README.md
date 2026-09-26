@@ -26,6 +26,14 @@ Venue coverage includes Uniswap, PancakeSwap, Aerodrome, Raydium, Orca, and Mete
 - Contact: admin@quantumpools.io
 - Public identity and brand assets: this repository
 
+## Wallet and directory review
+
+- [General listing packet](docs/WALLET-LISTING.md)
+- [Rabby review packet and source-traced warning diagnosis](docs/RABBY-REVIEW.md)
+- [Structured project identity (JSON-LD)](identity.json)
+
+These are project-published information resources, not independent approval. The JSON-LD is generic project metadata, not a universal wallet allowlist file. Submitting a packet does not mean a wallet has approved or listed the app.
+
 ## Logos
 
 - [250 px PNG](assets/dappradar-logo-250.png)
