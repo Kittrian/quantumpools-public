@@ -1,27 +1,26 @@
 # QuantumPools
 
-**Multi-chain liquidity-pool management and analytics — concentrated-liquidity LP bookkeeping, fees, impermanent loss, and Cover Value.**
+**Multi-chain concentrated-liquidity management and analytics** — Uniswap, PancakeSwap, Aerodrome, Orca, Meteora, and Solana (including Base), with Cover Value–style reporting, range automation, and ETH hedging workflows.
 
-## Official app
+## Main site (canonical app)
 
-**https://app.quantumpools.io** is the canonical QuantumPools dApp URL. Use this exact URL in wallet and directory listings.
+**https://app.quantumpools.io** is the primary QuantumPools product URL. Use this exact URL in wallet, directory, and DefiLlama-style listings.
 
-The main website is https://quantumpools.io.
+https://quantumpools.io is the marketing / metrics host (not the main app).
 
 ## What it is
 
-- Portfolio metrics and bookkeeping for liquidity-pool positions across EVM chains and Solana.
-- Deposit-versus-hold accounting, fee tracking, impermanent-loss analysis, and Cover Value.
-- Liquidity-management workflows, including Snuggle rebalancing where supported.
-- Wallet connection or manual entry for venues the indexer cannot read yet.
+QuantumPools is a multi-chain concentrated-liquidity manager and analytics platform. It covers Uniswap, PancakeSwap, Aerodrome, Orca, Meteora, and Solana venues (including Base), with per-position LP bookkeeping, Cover Value–style deposit-versus-hold reporting, multi-sleeve range strategies, owner-tunable rebalance timing, and ETH hedging workflows.
 
-Venue coverage includes Uniswap, PancakeSwap, Aerodrome, Raydium, Orca, and Meteora. Available analytics, indexing, and management features vary by venue and network; this list does not mean every feature is available on every integration.
+On supported EVM vault deployments (including Robinhood Chain), Uniswap V3 LP NFTs can sit in a QuantumPools vault with always-available withdraw, timelocked owner controls, and a hard-capped performance fee on trading fees only — never on principal.
+
+Available analytics, indexing, vault management, and hedging features vary by venue and network. Listing a venue here does not mean every feature ships on every chain yet.
 
 ## Official links and contact
 
-- Canonical dApp: [app.quantumpools.io](https://app.quantumpools.io)
-- Main website: [quantumpools.io](https://quantumpools.io)
-- Existing metrics page: [quantumpools.io/metrics.html](https://quantumpools.io/metrics.html)
+- **Main app:** [app.quantumpools.io](https://app.quantumpools.io)
+- Marketing / metrics: [quantumpools.io](https://quantumpools.io)
+- Metrics page: [quantumpools.io/metrics.html](https://quantumpools.io/metrics.html)
 - X: [@QuantumPoolsIO](https://x.com/QuantumPoolsIO)
 - Contact: admin@quantumpools.io
 - Public identity and brand assets: this repository
@@ -42,11 +41,11 @@ These are project-published information resources, not independent approval. The
 
 ## Source-code privacy and verification
 
-Source for the production application is maintained privately. This repository contains public project information and brand assets, not the proprietary application, backend, keeper logic, or credentials.
+Source for the production application is maintained privately. This repository contains public project information and brand assets, not the proprietary application, backend, keeper logic, Cover Value implementation, rebalancing internals, or credentials.
 
-A project listing or wallet recognition is not a security audit or a guarantee of investment performance. QuantumPools does not claim ownership of third-party protocols' contracts or their total value locked merely because it tracks or interacts with them.
+A project listing or wallet recognition is not a security audit or a guarantee of investment performance. Audit links may be added later; this packet intentionally omits them for now. QuantumPools does not claim ownership of third-party protocols' contracts or their total value locked merely because it tracks or interacts with them.
 
-Always verify the app domain and review wallet permissions and transaction details before signing. Never provide a seed phrase or private key to a website or support contact.
+Always verify the app domain (**app.quantumpools.io**) and review wallet permissions and transaction details before signing. Never provide a seed phrase or private key to a website or support contact.
 
 ---
 
