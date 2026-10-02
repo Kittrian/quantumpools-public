@@ -25,6 +25,7 @@ Venue coverage includes Uniswap, PancakeSwap, Aerodrome, Raydium, Orca, and Mete
 - 250 px PNG: https://raw.githubusercontent.com/Kittrian/quantumpools-public/main/assets/dappradar-logo-250.png
 - 400 px PNG: https://raw.githubusercontent.com/Kittrian/quantumpools-public/main/assets/logo-400.png
 - 400 px JPG: https://raw.githubusercontent.com/Kittrian/quantumpools-public/main/assets/logo-400.jpg
+- 200×200 transparent PNG (CMC): https://raw.githubusercontent.com/Kittrian/quantumpools-public/main/assets/logo-cmc-200.png
 
 ## Requested wallet metadata
 
