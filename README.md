@@ -38,6 +38,7 @@ These are project-published information resources, not independent approval. The
 - [250 px PNG](assets/dappradar-logo-250.png)
 - [400 px PNG](assets/logo-400.png)
 - [400 px JPG](assets/logo-400.jpg)
+- 200×200 transparent PNG (CMC): https://raw.githubusercontent.com/Kittrian/quantumpools-public/main/assets/logo-cmc-200.png
 
 ## Source-code privacy and verification
 
