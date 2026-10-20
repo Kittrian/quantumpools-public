@@ -1,6 +1,6 @@
 # QuantumPools
 
-**Multi-chain concentrated-liquidity management and analytics** — Uniswap, PancakeSwap, Aerodrome, Orca, Meteora, and Solana (including Base), with Cover Value–style reporting, range automation, and ETH hedging workflows.
+**Multi-chain concentrated-liquidity management and analytics** — Uniswap, PancakeSwap, Aerodrome, Orca, Meteora, and Solana, with Cover Value–style reporting, snuggle, and ETH hedging workflows.
 
 ## Main site (canonical app)
 
@@ -8,13 +8,29 @@
 
 https://quantumpools.io is the marketing / metrics host (not the main app).
 
+## Supported chains
+
+Self-withdrawable managed vaults are deployed on:
+
+- Robinhood Chain
+- Base
+- BNB Smart Chain (BSC)
+
+BNB Smart Chain (BSC) is the EVM network of BNB Chain (chain id 56).
+
+| Chain | Vault |
+| --- | --- |
+| BNB Smart Chain (BSC) / BNB Chain | `0x9597f68203d1bc85744A5Fc11D890aA7777e386B` |
+
+On BNB Smart Chain (BSC), `0x9597f68203d1bc85744A5Fc11D890aA7777e386B` is the QuantumPools self-withdrawable managed vault. The depositor stays the recorded owner and can withdraw. When a position leaves its range, automatic snuggle moves the range. Owner controls are timelocked, and the performance fee is hard-capped and charged on trading fees only — never on principal.
+
 ## What it is
 
-QuantumPools is a multi-chain concentrated-liquidity manager and analytics platform. It covers Uniswap, PancakeSwap, Aerodrome, Orca, Meteora, and Solana venues (including Base), with per-position LP bookkeeping, Cover Value–style deposit-versus-hold reporting, multi-sleeve range strategies, owner-tunable rebalance timing, and ETH hedging workflows.
+QuantumPools is a multi-chain concentrated-liquidity manager and analytics platform. It covers Uniswap, PancakeSwap, Aerodrome, Orca, Meteora, and Solana venues on Robinhood Chain, Base, and BNB Smart Chain (BSC), with per-position LP bookkeeping, Cover Value–style deposit-versus-hold reporting, multi-sleeve range strategies, owner-tunable snuggle timing, and ETH hedging workflows.
 
-On supported EVM vault deployments (including Robinhood Chain), Uniswap V3 LP NFTs can sit in a QuantumPools vault with always-available withdraw, timelocked owner controls, and a hard-capped performance fee on trading fees only — never on principal.
+On these EVM deployments, LP NFTs can sit in a QuantumPools self-withdrawable managed vault. Automatic snuggle is the range adjustment. Withdrawal stays available to the position owner, owner controls are timelocked, and the performance fee is hard-capped and charged on trading fees only — never on principal.
 
-Available analytics, indexing, vault management, and hedging features vary by venue and network. Listing a venue here does not mean every feature ships on every chain yet.
+Available analytics, indexing, vault management, and hedging features vary by venue and network. Listing a venue or chain here does not mean every feature ships on every chain yet.
 
 ## Official links and contact
 
@@ -41,7 +57,7 @@ These are project-published information resources, not independent approval. The
 
 ## Source-code privacy and verification
 
-Source for the production application is maintained privately. This repository contains public project information and brand assets, not the proprietary application, backend, keeper logic, Cover Value implementation, rebalancing internals, or credentials.
+Source for the production application is maintained privately. This repository contains public project information and brand assets, not the proprietary application, backend, keeper logic, Cover Value implementation, snuggle internals, or credentials.
 
 A project listing or wallet recognition is not a security audit or a guarantee of investment performance. Audit links may be added later; this packet intentionally omits them for now. QuantumPools does not claim ownership of third-party protocols' contracts or their total value locked merely because it tracks or interacts with them.
 
